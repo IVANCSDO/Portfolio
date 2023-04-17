@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javaScript" src="javaS.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+  <h1 id="dados" style="text-align:center;">Da-Dos</h1>
+
+
+  <!--
+    <ul id="home">
+        <li><a href="d4.html">D4</a></li>
+        <li><a href="d6.html">D6</a></li>
+        <li><a href="d8.html">D8</a></li>
+        <li><a href="d10.html">D10</a></li>
+        <li><a href="d12.html">D12</a></li>
+        <li><a href="d20.html">D20</a></li>
+      </ul> 
+      -->
+
+      <div id="topBar" class="topnav">
+        <a class="active" href="menu.html">Menu</a>
+        <a href="d4.html">D4</a>
+        <!--
+          <ul>
+              <li><a href="d4.html#tiradad4">>TIRADA DE UN DADO DE 4 CARAS</a></li>
+              <li><a href="d4.html#calculard4">CALCULAR EL DADO</a></li>
+              <li><a href="curiosidadesd4">CURIOSIDADES</a></li>
+          </ul>
+        -->
+        <a href="d6.html">D6</a>
+        <a href="d8.html">D8</a>
+        <a href="d10.html">D10</a>
+        <a href="d12.html">D12</a>
+        <a href="d20.html">D20</a>
+      </div>
+
+
+<div id="parrafo">
+    <h2>¿Qué son los dados de rol?</h2>
+
+      <p>Los dados de rol son aquellos dados usados habitualmente en los juegos de rol.
+        Aunque no se trate de dados fabricados o inventados únicamente para jugar a
+        rol el uso de la lengua les atribuye esta apelación en el contexto de los
+        juegos de rol o juegos afines, como los wargames.</p>
+
+    <p></p>
+</div>
+
+<!--Caja de dados-->
+
+
+<div id="caja1" class="gradient_border"> 
+  <br> <br> <br> <br> <br>
+  <h2>LANZADOR DE DADOS</h2>
+    
+  <input type="button" class="boton" value="D4" id="botonId" onclick="botonD4()">
+
+  <input type="button" class="boton" value="D6" id="botonId" onclick="botonD6()">
+  <br> <br>
+  <input type="button" class="boton" value="D8" id="botonId" onclick="botonD8()">
+
+  <input type="button" class="boton" value="D10" id="botonId" onclick="botonD10()">
+  <br> <br>
+  <input type="button" class="boton" value="D12" id="botonId" onclick="botonD12()">
+
+  <input type="button" class="boton" value="D20" id="botonId" onclick="botonD20()">
+
+
+<br><br><br>
+  <input type="number" id="cajaResultado" class="cajaResultado1" readonly value="0">
+    
+</div>
+<!--Din caja de dados-->
+
+<div id="parrafo">
+    <h2>Descripción general</h2>
+
+      <p>Un dado es por definición un objeto concebido para que al ser lanzado y rodado, 
+            uno de sus posibles resultados, el que queda en posición superior (o en la arista 
+            inferior en algunos dados de cuatro) una vez que el dado se ha inmovilizado, 
+            indique un resultado. Los objetos más apropiados para ser utilizados como dados 
+            serán pues aquellos a los que se les haya dado la forma de poliedros, aunque 
+            desde la antigüedad también se han usado huesecillos de animales. En el caso de los 
+            juegos de rol se usan sobre todo poliedros y según la equidad que se desee en las 
+            probabilidades de sus resultados, la rodadura y equidad del dado serán proporcionales 
+            a la regularidad de las caras y aristas del poliedro sobre el que el dado está construido. 
+            De los seis dados que mayoritariamente se utilizan en los juegos de rol, cinco tienen la 
+            forma de los llamados cinco sólidos platónicos, los únicos cinco poliedros en ser llamados 
+            «perfectos» por ser los únicos perfectamente regulares. De estos seis dados mayoritariamente 
+            utilizados el único en no ser un sólido platónico es el dado de diez caras:</p>
+
+            <ul>
+                <li>El dado de cuatro caras suele ser un tetraedro regular.</li>
+                <li>El dado de seis caras es un cubo (o lo que es lo mismo: un hexaedro regular).</li>
+                <li>El dado de ocho caras es un octaedro regular.</li>
+                <li>El dado de doce caras es un dodecaedro regular.</li>
+                <li>El dado de veinte caras es un icosaedro regular.</li>
+                <li>El dado de diez caras es un trapezoedro pentagonal.</li>
+              </ul>
+</div>
+
+    <p id="nombre2">Iván Casado Álvarez</p>
+
+
+    <audio src="media/dado.mp3" id="audio"></audio>
+</body>
+</html>

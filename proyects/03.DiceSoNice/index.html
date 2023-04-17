@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script type="text/javaScript" src="script/script.js"></script>
+
+</head>
+<body>
+
+<div class="parent">
+    
+    <div class="div1">
+
+        <h1>dice so nice</h1>
+
+    </div>
+
+    <div id="lanzador" class="div3">
+
+        <input type="button" class="button" id="d6" value="D6" onclick="calcular(1,6)">
+        <input type="button" class="button" id="d10" value="D10" onclick="calcular(1,10)">
+        <input type="button" class="button" id="d20" value="D20" onclick="calcular(1,20)">
+        <br>       <br>
+        Resultado: <input type="number" class="resultado" readonly value="0" id="resultadoDado">
+
+        <audio src="media/dado.mp3" id="audio"></audio>
+
+    </div>
+
+    <div id="registro" class="div2">
+
+        <textarea id="registroTexto" cols="30" rows="10" readonly></textarea> <br>
+        <input type="button" id="boton1" value="Limpiar registro" onclick="limpiar()">
+
+    </div>
+
+    <div class="div4" id="contenedorImagen">
+
+        <img id="imagen" src="media/d20-20.png" class="image">
+
+    </div>
+
+    <div class="div5" id="contenedorImagen">
+        
+
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+html, body{
+    margin: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+#topPart{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+  border-bottom: solid black 1px;
+}
+
+#topPart h1{
+  font-family: fuente2;
+  user-select: none;
+  
+}
+
+.headerMenu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: fuente1;
+    align-items: center;
+  }
+  
+  .headerMenuItem {
+    margin-right: 20px;
+  }
+  
+  .headerMenuItem:last-child {
+    margin-right: 0;
+  }
+  
+  .link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(20, 21, 22);
+    transition: 0.25s;
+
+  }
+  
+  .link:hover {
+    color: rgb(176, 123, 197);
+  }
+
+  
+  .linkActive{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.25s;
+    color: rgb(172, 91, 204);
+  }
+
+  /* ---Imagen--- */
+
+#centralImg{
+  position: relative;
+  background-image: url(../media/fondoPrincipal.jpg);
+  height: 30vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+#centralImg p{
+  user-select: none;
+  font-size: 6em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  font-family: fuente2;
+}
+
+/* zona destacados */
+
+#content h2{
+  font-family: fuente2;
+  font-size: 3em;
+}
+
+.contenedorTarjetas{
+  background-color: rgb(209, 209, 209);
+  display: flex;
+  padding: 2%;
+  overflow-x: auto;
+  user-select: none;
+
+}
+
+.tarjeta{
+  margin: 1%;
+  max-width: 19%;
+  min-width: 19%;
+  overflow: hidden;
+  transition: 0.55s;
+  border: solid rgb(39, 39, 39) 1px;
+  padding: 2%;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: black;
+
+}
+
+.tarjeta:hover{
+  cursor: pointer;
+  scale: 1.05;
+  border: solid rgb(172, 91, 204) 1px;
+
+}
+
+.tarjeta img{
+  width: 100%;
+  -webkit-user-drag: none;
+}
+
+/* página de proyecto */
+
+.contenedorProyectos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(238, 229, 238);
+  justify-content: center;
+}
+
+.tarjeta2{
+  margin: 1%;
+  max-width: 18%;
+  min-width: 18%;
+  overflow: hidden;
+  transition: 0.55s;
+  border: solid rgb(39, 39, 39) 1px;
+  padding: 2%;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: black;
+
+}
+
+.tarjeta2:hover{
+  cursor: pointer;
+  scale: 1.05;
+  border: solid rgb(34, 3, 49) 1px;
+
+}
+
+.tarjeta2 img{
+  width: 100%;
+  -webkit-user-drag: none;
+}

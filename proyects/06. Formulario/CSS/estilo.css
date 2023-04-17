@@ -1,0 +1,219 @@
+.no-select {
+  -webkit-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+body{
+
+  background: rgb(169,226,255);
+  background: linear-gradient(167deg, rgba(169,226,255,1) 0%, rgba(255,190,255,1) 100%);
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#principal{
+
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 75vh;
+  background-color: rgba(255, 251, 19, 0.76);
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.411);
+
+}
+
+#form{
+
+  transition: 1s;
+  width: 46%;
+  background-color: rgb(255, 255, 255);
+  margin: 1%;
+  padding: 1%;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.411);
+
+}
+
+#publi{
+
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 46%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.411);
+  margin: 1%;
+  padding: 1%;
+  transition: 2s;
+
+
+}
+
+img{
+
+  max-width: 100%;
+  height: auto;
+
+}
+
+#form{
+
+  font-size: 1.5vmin;
+
+}
+
+#head{
+
+  text-align: center;
+
+}
+
+#opcionesPubli{
+
+  font-size: 1.5vmin;
+
+}
+
+#fieldSexo{
+
+  background-color: rgba(175, 218, 255, 0.212);
+  border-color: rgba(0, 174, 255, 0.493);
+
+}
+
+#fieldOpciones{
+
+  background-color: rgba(175, 218, 255, 0.212);
+  border-color: rgba(0, 174, 255, 0.568);
+  
+}
+
+.boton{
+
+  border-radius: 0%;  
+  border-color: rgba(250, 235, 215, 0);
+  background-color: rgba(255, 255, 25, 0.548);
+  transition: 0.2s;
+
+}
+
+.boton:hover{
+
+  border-radius: 0%;  
+  border-color: rgba(250, 235, 215, 0);
+  background-color: rgba(24, 173, 231, 0.548);
+  scale: 1.05;
+
+}
+
+.center{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+/* Zona de carga */
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #d67ed6;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.intro {
+  position: relative;
+  animation-name: intro;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes intro {
+  from { opacity:0 } 
+  to { opacity:1 }
+}
+
+@keyframes intro { 
+  from{ opacity:0 } 
+  to{ opacity:1 }
+}
+
+#titulo{
+  width: 100%;
+  position: fixed;
+  top: 2vh;
+  justify-content: center;
+  text-align: center;
+  font-size: 4vh;
+  color: #eb90df;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+
+
+/*el código*/
+
+#codigo{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+
+}
+
+#areaCodigo{
+  background: rgb(255, 255, 255);
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  margin: -50px 0 0 -50px;
+}
+
+#botonCodigo{
+  position: relative;
+  top: 25%;
+  left: 25%;
+  border-radius: 0%;  
+  border-color: rgba(250, 235, 215, 0);
+  background-color: rgb(255, 255, 25);
+  transition: 0.2s;
+}
+
+
+#botonCodigo:hover{
+
+  border-radius: 0%;  
+  border-color: rgba(250, 235, 215, 0);
+  background-color: rgb(24, 172, 231);
+  scale: 1.05;
+
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(96, 92, 97);
+}
+
+div {
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#musica {
+
+    position: absolute;
+    top: 70%;
+    left: 28%;
+
+
+}
+
+#musica img{
+
+    width: 70px;
+    height: auto;  
+
+}
+
+body {
+
+    transform: scale(0.75);
+    position: absolute;
+    top: 0%;
+    right: 35%;
+
+}

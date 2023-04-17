@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHESSN'T</title>
+    
+    <script src="SCRIPT/java.js"></script>
+    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <link rel="icon" href="media/faviconC.ico">
+
+</head>
+<body>
+
+    <div id="titulo"><h1>CHESSN'T</h1><h2>a low-poly website for not playing chess</h2></div>
+
+    <div id="divDatos">
+        <div id="datos">
+            Ancho <br> <input class="numero" type="number" id="ancho" value="40"> px <br>
+            Alto <br> <input class="numero" type="number" id="alto" value="40"> px <br> <br><br>
+            <input class="boton"  type="button" value="Mostrar" onclick="mostrar()"> <br><br>
+            <div id="features">Features: <br> <br>-El tablero siempre está en el centro independientemente del tamaño <br> <br>-El borde escala con el tablero <br> <br>-Puedes jugar en él <br> :)</div> 
+        </div>
+    </div>
+    
+    <div id="divTablero"><div id="tablero" style="height: 10px; width: 10px; border: solid 0px #312013;"></div></div>
+
+    <div id="divOpciones">
+        <div id="datosOpciones">
+            <br> <br> <br>
+            Colores: <br> <input type="color" id="color1" value="#f0e4e8" onchange="mostrar()"><input type="color" id="color2" value="#13314e" onchange="mostrar()"> <br>
+            Color de borde: <br> <input type="color" id="colorBorde" value="#1f1a1f" onchange="mostrar()"> <br> <br>
+            Paleta al azar: <br> <br> <input class="boton" type="button" value="Randomize!" onclick="colorAzar()">
+        </div>
+    </div>
+
+    <audio src="media/sonidos/capturar.mp3" id="Scapturar"></audio>
+    <audio src="media/sonidos/mover.mp3" id="Smover"></audio>
+
+</body>
+</html>

@@ -1,0 +1,286 @@
+
+/* El GRID */
+
+.container {  display: grid;
+    grid-template-columns: 0.8fr 1.4fr 0.8fr;
+    grid-template-rows: 0.4fr 1.4fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "cabecera cabecera cabecera"
+      ". contenido ."
+      ". contenido .";
+}
+  
+.cabecera { grid-area: cabecera; }
+  
+.contenido { grid-area: contenido; }
+
+
+
+  
+/* Las propiedades */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a { color: inherit; } 
+
+/* Cabecera */
+
+#cabecera1{
+    display: inline-block;
+    width: 40vw;
+    margin-top: 1%;
+    margin-left: 24%;
+    margin-bottom: 0.5%;
+}
+
+#cabecera2 {
+    text-align: center;
+    border-bottom: 3px solid #eeeeee;
+    text-align: center;
+}
+
+#cabecera2 a {
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 10%;
+    text-decoration: none;
+    font-size: 110%;
+    transition: 0.4s;
+}
+
+.linkBorde{
+    border-right: 2px solid #eeeeee;
+}
+
+#cabecera2 a:hover {
+background-color: #eeeeee;
+}
+
+.cubo{
+    color: #7bcf14;
+    transition: 0.4s;
+}
+
+#cabecera2 a:hover .cubo{
+    color: #d93600;
+}
+
+
+
+
+/* IMPUTS */
+
+#inputs label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+#inputs input {
+  display: inline-block;
+}
+
+#inputs{
+    border-bottom: 3px solid #eeeeee;
+    margin-bottom: 3%;
+}
+
+#botoRegistrar{
+    background-color: #bace09;
+    border: 3px solid #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    transition: 0.4s;
+    position: relative;
+    left: 60%;
+}
+
+#botoRegistrar:hover{
+    background-color: #5dac29;
+    border: 3px solid #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+#inputs h3{
+    background-color: #bace09;
+    padding-left: 1%;
+}
+
+
+/* Fila seleccionada */
+
+#tabla table .resaltado{
+    background-color: #e0a877;
+}
+
+#tabla table .resaltado .primeraColumna{ /* tampoco me lo he copiado */
+    background-color: #e0a877;
+}
+
+/* TABLA */
+
+.primeraFila{
+    background-color: #bace09;
+    cursor: default;
+}
+
+#tabla table{
+    width: 100%;
+    font-size: 80%;
+    padding-bottom: 4%;
+}
+
+#tabla table tr{
+    background-color: #f8dcc2;
+    transition: 0.15s;
+    padding-left: 1%;
+}
+
+#tabla table td{
+    padding-left: 1%;
+}
+
+#tabla table tr:hover{
+    background-color: #e0a877;
+    cursor: pointer;
+}
+
+.primeraColumna{
+    background-color: #f4cba6;
+    transition: 0.15s;
+    padding-left: 1%;
+}
+
+#tabla table tr:hover .primeraColumna{ /* No lo he copiado profe */
+    background-color: #e0a877;
+}
+
+table tr.active {
+    background-color: #ccc;
+}
+
+/* Eliminar Usuarios */
+
+#seccionBorrar{
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 3px solid #eeeeee;
+}
+
+#seccionBorrar{
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 3px solid #eeeeee;
+}
+
+#botonBorrar{
+    background-color: #bace09;
+    border: 3px solid #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    transition: 0.4s;
+}
+
+#botonBorrar:hover{
+    background-color: #5dac29;
+    border: 3px solid #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+#info h3{
+    background-color: #bace09;
+    padding-left: 1%;
+
+}
+
+#info label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+#info [type="text"] { /* aquí tampoco me he copiado profe */
+  display: inline-block;
+}
+
+#info{
+    border-bottom: 3px solid #eeeeee;
+    margin-bottom: 3%;
+}
+
+#info [type="button"] {
+    background-color: #bace09;
+    border: 3px solid #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    transition: 0.4s;
+    position: relative;
+}
+
+#info [type="button"]:hover {
+    background-color: #5dac29;
+    border: 3px solid #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+#info [type="button"]:disabled {
+    background-color: #bace09;
+    border: 3px solid #eeeeee;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    transition: 0.4s;
+    position: relative;
+    opacity: 0.5;
+}
+
+#info [type="button"]:hover:disabled {
+    cursor: default;
+}
+
+/* La cabecera de abajo (no sé cómo se llama y estoy malo, sos) */
+
+#cabeceraAbajo{
+    color: #eeeeee;
+    width: 218%;
+    height: 10%;
+    left: -60%;
+    background-color: #575656;
+    position: relative;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+

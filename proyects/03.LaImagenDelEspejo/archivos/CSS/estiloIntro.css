@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(247, 247, 229);
+}
+
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+div {
+    display: block;
+    margin-top: 15%;
+    margin-left: 37%;
+    margin-right: auto;
+    width: 30%;
+    animation: fadeIn 5s; 
+
+}
+
+body {
+
+    transform: scale(0.75);
+
+}
