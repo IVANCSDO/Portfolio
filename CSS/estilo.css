@@ -1,5 +1,11 @@
+:root{
+  --primary:#1494e4;
+  --secundary:#1494e4;
+  --ter:#2e9de2;
+}
+
 .logo{
-  width: 100px;
+  width: 75px;
 }
 
 body, html{
@@ -7,8 +13,8 @@ body, html{
 }
 
 .margin6{
-  margin-left: 6em;
-  margin-right: 6em;
+  padding-left: 6em;
+  padding-right: 6em;
 }
 
 @media (max-width: 768px) {
@@ -36,4 +42,37 @@ body, html{
 
 .textoAbout{
   font-size: 1.2em;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+#topnav{
+  margin-left: 0%;
+  width: 99.2vw;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #1494e4 !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  transition: 0.5s;
+}
+
+.pri{
+  background: linear-gradient(63deg, rgb(26, 146, 144) 0%, rgba(25,79,146,1) 29%, rgba(33,36,126,1) 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec{
+  color: var(--secundary);
+}
+
+.ter{
+  color: var(--ter);
 }
