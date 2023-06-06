@@ -1,0 +1,15 @@
+.logo{
+  width: 100px;
+}
+
+#main{
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+@media (max-width: 576px) {
+  #main{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
