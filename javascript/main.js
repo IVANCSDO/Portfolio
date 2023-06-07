@@ -5,9 +5,9 @@ function highlightNavLinks() {
       const navLink = document.querySelector('a[href="#' + section.id + '"]'); // Obtener el enlace de navegación correspondiente a la sección
   
       if (isInViewport(section)) {
-        navLink.classList.add("active"); // Agregar la clase "active" al enlace si la sección está visible
+        navLink.classList.add("pri"); // Agregar la clase "active" al enlace si la sección está visible
       } else {
-        navLink.classList.remove("active"); // Quitar la clase "active" del enlace si la sección no está visible
+        navLink.classList.remove("pri"); // Quitar la clase "active" del enlace si la sección no está visible
       }
     });
   }

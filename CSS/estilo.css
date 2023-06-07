@@ -17,6 +17,10 @@ body, html{
   padding-right: 6em;
 }
 
+/* #textoHome{
+  text-align: center;
+} */
+
 @media (max-width: 768px) {
   .margin6{
     margin-left: 1em;
@@ -32,12 +36,13 @@ body, html{
 }
 
 #home{
-  background-image: url("/media/imagen.jpg");
+  background: linear-gradient(0deg, rgb(255, 255, 255) 5%, rgba(33,36,126,0) 24%), url("/media/imagen2.jpg");
   background-size: cover;
   position: relative;
   height: 50vh;
   background-position: 0%;
   background-position-x: 80%;
+
 }
 
 .textoAbout{
@@ -53,6 +58,7 @@ html, body {
   width: 99.2vw;
   padding-left: 6em;
   padding-right: 6em;
+  border-bottom: 3px rgb(184, 184, 184) solid;
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -61,10 +67,11 @@ html, body {
 
 .navbar-light .navbar-nav .nav-link{
   transition: 0.5s;
+  font-size: larger
 }
 
 .pri{
-  background: linear-gradient(63deg, rgb(26, 146, 144) 0%, rgba(25,79,146,1) 29%, rgba(33,36,126,1) 62%);
+  background: linear-gradient(rgb(26, 146, 144) 0%, rgba(25,79,146,1) 29%, rgba(33,36,126,1) 62%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
