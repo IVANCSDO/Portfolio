@@ -67,11 +67,11 @@ html, body {
 
 .navbar-light .navbar-nav .nav-link{
   transition: 0.5s;
-  font-size: larger
+  font-size: larger;
 }
 
 .pri{
-  background: linear-gradient(rgb(26, 146, 144) 0%, rgba(25,79,146,1) 29%, rgba(33,36,126,1) 62%);
+  background: linear-gradient(30deg, rgb(26, 146, 144) 0%, rgba(25,79,146,1) 29%, rgba(33,36,126,1) 62%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
