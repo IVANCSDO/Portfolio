@@ -71,9 +71,9 @@ html, body {
 }
 
 .pri{
-  background: linear-gradient(30deg, rgb(26, 146, 144) 0%, rgba(25,79,146,1) 29%, rgba(33,36,126,1) 62%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(30deg, rgb(26, 146, 144) 0%, rgba(25,79,146,1) 29%, rgba(33,36,126,1) 62%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 .sec{
@@ -82,4 +82,10 @@ html, body {
 
 .ter{
   color: var(--ter);
+}
+
+
+.progress{
+  background-color: #c0c3c7 !important;
+  margin-bottom: 3%;
 }
