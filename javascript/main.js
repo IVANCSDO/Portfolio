@@ -50,7 +50,7 @@ function highlightNavLinks() {
         if (targetElement) {
           var offsetTop = targetElement.offsetTop;
           var windowHeight = window.innerHeight;
-          var scrollToPos = offsetTop - (windowHeight / 4);
+          var scrollToPos = offsetTop - (windowHeight / 5);
           
           window.scrollTo({
             top: scrollToPos,
