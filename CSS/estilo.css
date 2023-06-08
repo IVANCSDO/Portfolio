@@ -6,6 +6,11 @@
 
 .logo{
   width: 75px;
+  height: 75px;
+}
+
+.logo2{
+  max-height: 50px;
 }
 
 body, html{
@@ -55,7 +60,7 @@ html, body {
 
 #topnav{
   margin-left: 0%;
-  width: 99.2vw;
+  width: 100%;
   padding-left: 6em;
   padding-right: 6em;
   border-bottom: 3px rgb(184, 184, 184) solid;
@@ -88,4 +93,11 @@ html, body {
 .progress{
   background-color: #c0c3c7 !important;
   margin-bottom: 3%;
+}
+
+.pieDePag{
+  background-color: #cbcfd1;
+  width: 100% !important;
+  height: 10vh;
+  margin-top: 3em;
 }
