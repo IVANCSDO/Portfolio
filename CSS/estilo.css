@@ -38,6 +38,11 @@ body, html{
     justify-content: end !important;
   }
 
+  
+  .ulSkills{
+    padding-left: 0%;
+  }
+
 }
 
 #home{
@@ -64,6 +69,7 @@ html, body {
   padding-left: 6em;
   padding-right: 6em;
   border-bottom: 3px rgb(184, 184, 184) solid;
+  justify-content: center;
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -98,6 +104,12 @@ html, body {
 .pieDePag{
   background-color: #cbcfd1;
   width: 100% !important;
-  height: 10vh;
+  min-height: 10vh;
+  padding: 2%;
   margin-top: 3em;
+}
+
+
+#ulSkills{
+
 }
