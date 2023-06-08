@@ -41,7 +41,7 @@ body, html{
 }
 
 #home{
-  background: linear-gradient(0deg, rgb(255, 255, 255) 5%, rgba(33,36,126,0) 24%), url("/media/imagen2.jpg");
+  background: linear-gradient(0deg, rgb(255, 255, 255) 5%, rgba(33,36,126,0) 24%), url("../media/imagen2.jpg");
   background-size: cover;
   position: relative;
   height: 50vh;
