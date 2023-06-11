@@ -136,7 +136,7 @@ html, body {
 
 /* el tema de las cartas que hacen cosas */
 .textoCarta{
-  user-select: none;
+
   opacity: 0;
 }
 
