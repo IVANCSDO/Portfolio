@@ -145,7 +145,6 @@ html, body {
   background-position: 50%;
   transition: 1s;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .card_img{
