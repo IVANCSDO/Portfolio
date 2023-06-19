@@ -186,5 +186,15 @@ html, body {
   border: none !important;
 }
 
+#botonDescarga{
+  border: none;
+  transition: 0.35s;
+}
 
+#botonDescarga:hover{
+  scale: 1.05;
+}
 
+#botonDescarga img{
+  max-width: 50px;
+}
