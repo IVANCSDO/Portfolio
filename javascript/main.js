@@ -86,7 +86,7 @@ function highlightNavLinks() {
 
 function downloadResume(){
       var enlace = document.createElement('a');
-      enlace.href = 'media/CV_Ivan_Casado.pdf';
+      enlace.href = 'documentos/CV_Ivan_Casado.pdf';
       enlace.download = 'CV_Ivan_Casado.pdf';
       enlace.click();
 }
