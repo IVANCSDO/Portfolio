@@ -64,9 +64,7 @@ function highlightNavLinks() {
   
   function resizeHe(){
     var cartas = document.querySelectorAll('.cartaPort');
-
     for (var i = cartas.length - 1; i >= 0; i--) {
-      // console.log(cartas[i].offsetWidth + "px");
       cartas[i].style.height = cartas[i].offsetWidth + "px";
     }
   }

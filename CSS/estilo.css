@@ -143,7 +143,6 @@ html, body {
 .card{
   background-size: cover;
   background-position: 50%;
-  transition: 1s;
   overflow: hidden;
 }
 
