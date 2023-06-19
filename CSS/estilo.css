@@ -187,6 +187,7 @@ html, body {
 }
 
 #botonDescarga{
+  background-color: inherit;
   border: none;
   transition: 0.35s;
 }
