@@ -1,0 +1,15 @@
+@font-face {
+    font-family: tittle;
+    src: url("CSS/fonts/MontserratAlternates-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: SubTittle;
+    src: url("CSS/fonts/Caudex-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: body;
+    src: url("CSS/fonts/Merriweather-Regular.ttf");
+  }
+  

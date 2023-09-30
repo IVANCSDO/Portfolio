@@ -10,17 +10,17 @@ function elementos(elementsClassName) {
 
 }
 
-function aleatorioEntre(min,max){
+function aleatorioEntre(min, max) {
 
-    let resultado=parseInt(Math.floor((Math.random() * max) + min));
+    let resultado = parseInt(Math.floor((Math.random() * max) + min));
 
     return resultado;
 
 }
 
-function colorAleatorio() { 
+function colorAleatorio() {
 
-    let color= '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
+    let color = '#' + (Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
 
     return color
 
